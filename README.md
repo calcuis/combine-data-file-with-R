@@ -15,7 +15,7 @@ dataset2 <- data.frame(ID = c(4, 5, 6), Name = c("David", "Eva", "Frank"))
 combined_data <- rbind(dataset1, dataset2)
 ```
 #### Column-Binding
-`rbind.r` if you have two datasets with the same number of rows and you want to add columns from the second dataset to the first one
+`cbind.r` if you have two datasets with the same number of rows and you want to add columns from the second dataset to the first one
 ```
 dataset1 <- data.frame(ID = c(1, 2, 3), Name = c("Alice", "Bob", "Charlie"))
 dataset2 <- data.frame(Age = c(25, 30, 22), Gender = c("F", "M", "M"))
