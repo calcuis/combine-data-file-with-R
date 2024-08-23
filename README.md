@@ -22,3 +22,19 @@ dataset2 <- data.frame(Age = c(25, 30, 22), Gender = c("F", "M", "M"))
 
 combined_data <- cbind(dataset1, dataset2)
 ```
+#### Combining CSV Files by Rows
+`combined_by_rows.r` if both CSV files have the same columns and you want to append the rows from the second file to the first one
+```
+file1 <- read.csv("file1.csv")
+file2 <- read.csv("file2.csv")
+
+combined_data <- rbind(file1, file2)
+```
+#### Combining CSV Files by Columns
+`combined_by_columns.r` if both CSV files have the same number of rows and you want to add the columns from the second file to the first one
+```
+file1 <- read.csv("file1.csv")
+file2 <- read.csv("file2.csv")
+
+combined_data <- cbind(file1, file2)
+```
