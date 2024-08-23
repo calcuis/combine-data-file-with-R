@@ -30,6 +30,7 @@ file2 <- read.csv("file2.csv")
 
 combined_data <- rbind(file1, file2)
 ```
+*remember to set your working directory (where your data file locates) first by setwd()*
 #### Combining CSV files by Columns
 `combined_by_columns.r` if both CSV files have the same number of rows and you want to add the columns from the second file to the first one
 ```
