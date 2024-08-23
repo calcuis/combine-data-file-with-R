@@ -1,5 +1,5 @@
 #### Merging
-if you have two datasets that share a common column and you want to merge them based on that column
+`merge.r` if you have two datasets that share a common column and you want to merge them based on that column
 ```
 file1 <- read.csv("file1.csv")
 file2 <- read.csv("file2.csv")
