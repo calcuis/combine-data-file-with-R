@@ -38,7 +38,7 @@ file2 <- read.csv("file2.csv")
 
 combined_data <- cbind(file1, file2)
 ```
-#### Plotting a graph with Coordinates (x,y)
+#### Plotting a graph according to Coordinates (x,y)
 ```
 x <- c(1, 2, 3, 4, 5)
 y <- c(2, 4, 6, 8, 10)
